@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px) {
+    h1 {
+        display: none;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar img {
+        display: block;
+    }
+
+    .header-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .card_parent {
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .task_parent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Feauture {
+        flex-direction: column;
+    }
+
+    .footer-top {
+        flex-direction: column-reverse;
+        gap: 20px;
+
+    }
+    .footer-bottom h6{display: none;}
+
+
+}
